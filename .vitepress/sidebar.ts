@@ -81,12 +81,58 @@ const experience: DefaultTheme.SidebarItem = {
   text: "学习经验 (6)",
   collapsed: false,
   items: [
-    { text: "GMAT", link: "英语学习/GMAT" },
-    { text: "GRE (3)", link: "英语学习/GRE" },
-    { text: "IELTS (2)", link: "英语学习/IELTS" },
-    { text: "TOEFL", link: "英语学习/TOEFL" },
-    { text: "四六级", link: "英语学习/四六级" },
-    { text: "日常学习 (1)", link: "英语学习/日常学习" },
+    {
+      text: "GMAT",
+      link: "英语学习/GMAT",
+    },
+    {
+      text: "GRE (3)",
+      link: "英语学习/GRE",
+      items: [
+        {
+          text: "GRE修仙指南-15级-张孜晟",
+          link: "英语学习/GRE/GRE修仙指南-15级-张孜晟",
+        },
+        {
+          text: "GRE指南-19级-杨文汉夫",
+          link: "英语学习/GRE/GRE指南-19级-杨文汉夫",
+        },
+      ],
+    },
+    {
+      text: "IELTS (2)",
+      link: "英语学习/IELTS",
+      items: [
+        {
+          text: "2个月自学雅思总分6-7",
+          link: "英语学习/IELTS/2个月自学雅思总分6-7",
+        },
+      ],
+    },
+    {
+      text: "TOEFL (1)",
+      link: "英语学习/TOEFL",
+      items: [
+        {
+          text: "英语学渣学习指南",
+          link: "英语学习/TOEFL/英语学渣学习指南",
+        },
+      ],
+    },
+    {
+      text: "四六级",
+      link: "英语学习/四六级",
+    },
+    {
+      text: "日常学习 (1)",
+      link: "英语学习/日常学习",
+      items: [
+        {
+          text: "如何高效背单词",
+          link: "英语学习/日常学习/经验分享-21-周弘毅",
+        },
+      ],
+    },
   ],
 };
 
